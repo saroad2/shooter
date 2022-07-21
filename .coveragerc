@@ -2,7 +2,10 @@
 branch = True
 source = src
 omit =
+    src/shooter/cli/*.py
+    src/shooter/__main__.py
     src/shooter/board.py
+    src/shooter/constants.py
 
 [report]
 show_missing = True
